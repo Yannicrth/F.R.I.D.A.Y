@@ -1,0 +1,21 @@
+# Python-Umgebung und Zwischenspeicher (lassen sich neu erzeugen, siehe README)
+.venv/
+__pycache__/
+*.pyc
+
+# Sprachmodelle, ca. 11 GB: neu laden mit  .venv\Scripts\python -m assistent.modelle_laden
+modelle/
+
+# Persönliche und rechnerbezogene Daten: Gesprächsprotokolle, Kalender, Notizen, Anmeldungen,
+# Browserprofil des Desktop-Hintergrunds. Ausnahme: Jarvis' Gedächtnis über Hiro kommt mit (Wunsch 21.10.2026).
+daten/*
+!daten/gedaechtnis.json
+
+# Kopie des eigenen Windows-Hintergrundbilds (erzeugt Jarvis beim Start selbst)
+spielwiese/tapete.jpg
+
+# Ausprobierte Stimmen-Kandidaten (die gewählte Stimme liegt in stimmen/jarvis.wav)
+stimmen/kandidaten/
+
+*.tmp
+*.log
